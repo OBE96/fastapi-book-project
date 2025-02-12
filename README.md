@@ -49,7 +49,7 @@ fastapi-book-project/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/hng12-devbotops/fastapi-book-project.git
+git clone https://github.com/OBE96/fastapi-book-project.git
 cd fastapi-book-project
 ```
 
@@ -76,8 +76,8 @@ uvicorn main:app
 
 2. Access the API documentation:
 
-- Swagger UI: http://localhost:8000/docs
-- ReDoc: http://localhost:8000/redoc
+- Swagger UI: http://13.51.206.34/docs
+- ReDoc: http://13.51.206.34/redoc
 
 ## API Endpoints
 
@@ -132,9 +132,9 @@ The API includes proper error handling for:
 ## Contributing
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
+2. Create a feature branch (`git checkout -b feat/get-book-by-id`)
+3. Commit changes (`git commit -m 'Add feat'`)
+4. Push to branch (`git push origin feat/get-book-by-id`)
 5. Open a Pull Request
 
 ## License
