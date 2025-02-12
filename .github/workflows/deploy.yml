@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: cd deployment
+      - name: deploy
         uses: appleboy/ssh-action@v1.2.0
         with:
           host: ${{secrets.EC2_HOST}}
